@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "siga_nli"
+version = "0.1.0"
+description = "Scalar Implicatures with Gradable Adjectives project repository"
+authors = ["Rashid Nizamani", "Sebastian Schuster", "Vera Demberg"]
+
+[tool.poetry.dependencies]
+python = "~3.9.6"
+typer = "^0.3.2"
+pydantic = "^1.10.1"
+typing-extensions = "4.5.0"
+torch = "<2.1.1"
+torchvision = ">0.13.1"
+numpy = ">=1.20.3"
+pandas = ">1.4.0"
+transformers = "^4.35.2"
+accelerate= ">0.21.0"
+sentencepiece = "^0.2.0"
+scikit-learn = ">1.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
