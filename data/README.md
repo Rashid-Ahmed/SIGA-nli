@@ -14,4 +14,4 @@
 
 ## Information regarding the files
 1) Each file is provided in both csv and json format
-2) The raw_numberical_data.csv file contains raw response values obtained from the survey.
+2) The raw_numberical_data.csv file contains the raw responses by annotators.
