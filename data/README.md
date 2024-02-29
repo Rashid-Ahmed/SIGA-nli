@@ -2,8 +2,8 @@
 
 ## The siga dataset has been split in 3 parts.
 1) Training dataset: These are examples used for finetuning NLI models.
-2) In-domain test dataset: These test examples contain the same scalar adjective pairs that are found in the training dataset.
-3) Out-of-domain test dataset: These test examples conain scalar adjectives pairs that are not found in the training dataset.
+2) In-domain test dataset (`test_id`): These test examples contain the same scalar adjective pairs that are present in the training dataset.
+3) Out-of-domain test dataset (`test_ood`): These test examples conain scalar adjective pairs that are not present in the training dataset.
 
 ## Information regarding the fields in the datasets
 1) premise: Contains the context +  premise
